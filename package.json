@@ -1,0 +1,20 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "An integration of Facebook Messenger Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannChang/messenger-bot.git"
+  },
+  "author": "Daniel Chang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DannChang/messenger-bot/issues"
+  },
+  "homepage": "https://github.com/DannChang/messenger-bot#readme"
+}
