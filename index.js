@@ -1,4 +1,5 @@
 'use strict';
+require('dotenv').config();
 
 // Imports dependencies and set up http server
 const 
@@ -35,7 +36,7 @@ app.post('/webhook', (req, res) => {
 app.get('/webhook', (req, res) => {
 
     // Your verify token. Should be a random string.
-    let VERIFY_TOKEN = "<applesauce>"
+    let VERIFY_TOKEN = process.env.FACEBOOK_PAGE_ACCESS_TOKEN;
       
     // Parse the query params
     let mode = req.query['hub.mode'];
